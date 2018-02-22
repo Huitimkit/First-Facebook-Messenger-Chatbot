@@ -37,7 +37,7 @@ Messenger是Facebook推出的即时通讯工具，用户只需打开Messenger就
 
 点击[https://glitch.com/edit/#!/messenger-bot](https://glitch.com/edit/#!/messenger-bot)进行编辑，
 
-在.env文件中，把上一步的获得访问口令填到**PAGE_ACCESS_TOKEN**中，**VERIFY_TOKEN**随便填，记住等一下用。
+在.env文件中，把上一步的获得访问口令填到**PAGE_ACCESS_TOKEN**中，**VERIFY_TOKEN**随便填，记下来等一下用。
 
 ![](https://github.com/Huitimkit/First-Facebook-Messenger-Chatbot/blob/master/img/glitch.jpg?raw=true)
 
@@ -52,7 +52,7 @@ Messenger是Facebook推出的即时通讯工具，用户只需打开Messenger就
 
 ![](https://github.com/Huitimkit/First-Facebook-Messenger-Chatbot/blob/master/img/webhook.jpg?raw=true)
 
-在回调网址中，填入第五步的最后复制的链接并加上**/webhook**，例如：https://example.com/webhook。
+在回调网址中，填入第五步的最后复制的链接并加上/webhook，例如：https://example.com/webhook。
 
 在验证口令一栏中输入.env中的VERIFY_TOKEN的值，并且勾选**message**和**messaging——postbacks**，点击**验证并保存**，验证填写信息是否有误。无误则自动关闭窗口并在Webhook一栏的右边显示完成，同时操作订阅刚刚创建的粉丝页。
 
